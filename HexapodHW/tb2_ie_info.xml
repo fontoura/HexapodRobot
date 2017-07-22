@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!--Created by Liquid XML 2008 (www.liquid-technologies.com) for Altera-->
+<ProgramExecution xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+	<QuartusExecution>
+		<AddressBits>32</AddressBits>
+		<ApplicationError>
+		<Bits>64</Bits>
+		<CommandLine>quartus</CommandLine>
+		<ErrorMessage>Attempt made to free all hierarchy databases but the following callers are still accessing it: GEDQ_VIEW::get_sld_hdb_iname, GEDQ_VIEW::get_sld_hdb_iname</ErrorMessage>
+		<Line>1152</Line>
+		<Platform>windows</Platform>
+		<SourceFile>/quartus/db/dbmui/dbmui_manager.cpp</SourceFile>
+		<StackTrace>
+	  0x1c761c9: DB_DBMUI + 0x61c9 (?close_hdb_all_cap_inst@DBMUI_MANAGER@@QAE_NPBD@Z + 0x109)
+	  0x1c76cf8: DB_DBMUI + 0x6cf8 (?clear_cached_info@DBMUI_MANAGER@@AAEX_N@Z + 0x78)
+	  0x1c76e2f: DB_DBMUI + 0x6e2f (?set_revision_info@DBMUI_MANAGER@@QAEXPBD0@Z + 0x8f)
+	  0x546544e: sys_proj + 0x544e (?close_impl@PROJ_PROJECT@@AAE_NXZ + 0x1be)
+	  0x546933f: sys_proj + 0x933f (?close@PROJ_PROJECT@@SA_NXZ + 0x5f)
+	  0x5226666: SYS_QUI + 0x56666 (?closeEvent@QUI_FRAME_WND@@MAEXPAVQCloseEvent@@@Z + 0x276)
+	  0x1379b04: SYS_QGQ + 0x9b04 (?closeEvent@QGQ_MAIN_WINDOW@@MAEXPAVQCloseEvent@@@Z + 0x34)
+	 0x650622e9: QtGui4 + 0x622e9 (?event@QWidget@@MAE_NPAVQEvent@@@Z + 0x4e9)
+		</StackTrace>
+		<Subsystem>DBMUI</Subsystem>
+	</ApplicationError>
+	<Compilation>
+			<CompileID>0</CompileID>
+			<DeviceFamily/>
+			<IncrementalCompilation/>
+			<TopLevelEntityName/>
+		</Compilation>
+		<DateInvoked>2013/05/11 14:07:20</DateInvoked>
+		<ElapsedTime>24295</ElapsedTime>
+		<IP>192.168.1.100</IP>
+		<IsInternal>false</IsInternal>
+		<IsQt>true</IsQt>
+		<License>
+			<Edition>Web Edition</Edition>
+			<LicenseHostID/>
+		</License>
+		<Machine>
+			<CPUCountLogical>4</CPUCountLogical>
+			<CPUCountPhysical>1</CPUCountPhysical>
+			<CPUSpeed>3005</CPUSpeed>
+			<Hostname>Leandro-PC</Hostname>
+			<NIC>
+				<Address>0015af28ef27</Address>
+			</NIC>
+			<NIC>
+				<Address>001d6043c85a</Address>
+			</NIC>
+			<NIC>
+				<Address>001d6043c6ed</Address>
+			</NIC>
+			<OS>Windows 7</OS>
+			<OSAddressBits>64</OSAddressBits>
+			<OSVersion>6.1</OSVersion>
+			<Platform>windows</Platform>
+			<ScreenResolution>unknown</ScreenResolution>
+			<TotalPhysicalRAM>4095</TotalPhysicalRAM>
+			<TotalVirtualRAM>0</TotalVirtualRAM>
+		</Machine>
+		<Name>quartus</Name>
+		<PeakMemoryUsed>0</PeakMemoryUsed>
+		<ProjectRevision>
+			<ProjectName/>
+			<Revision/>
+		</ProjectRevision>
+		<QuartusInstallation>
+			<InstallationID>93133008679.135040343904156</InstallationID>
+			<Version>
+				<Build>263</Build>
+				<BuildSite>SJ</BuildSite>
+				<BuildSuffix/>
+				<Edition>Web Edition</Edition>
+				<ServicePack>2</ServicePack>
+				<VersionNumber>12</VersionNumber>
+			</Version>
+		</QuartusInstallation>
+		<QuartusUser>
+			<AlteraUserName/>
+			<FAEContactName/>
+			<TalkbackStatus>
+				<DateSet/>
+				<TalkbackOn>true</TalkbackOn>
+			</TalkbackStatus>
+			<UserID>126169106522.134482710604228</UserID>
+			<UserName>Leandro</UserName>
+		</QuartusUser>
+	</QuartusExecution>
+	<SchemaVersion>schema_2011-12-20</SchemaVersion>
+</ProgramExecution>
+

@@ -1,0 +1,211 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 280 368)
+	(text "signal_control_pwm" (rect 5 0 132 12)(font "Arial" ))
+	(text "inst" (rect 8 336 36 348)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle1[15..0]" (rect 0 0 92 12)(font "Arial" ))
+		(text "angle1[15..0]" (rect 21 27 113 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "angle2[15..0]" (rect 0 0 92 12)(font "Arial" ))
+		(text "angle2[15..0]" (rect 21 43 113 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "angle3[15..0]" (rect 0 0 92 12)(font "Arial" ))
+		(text "angle3[15..0]" (rect 21 59 113 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "sel[2..0]" (rect 0 0 63 12)(font "Arial" ))
+		(text "sel[2..0]" (rect 21 75 84 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "wr_coord" (rect 0 0 56 12)(font "Arial" ))
+		(text "wr_coord" (rect 21 91 77 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "update_flag" (rect 0 0 77 12)(font "Arial" ))
+		(text "update_flag" (rect 21 107 98 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "clock" (rect 0 0 35 12)(font "Arial" ))
+		(text "clock" (rect 21 123 56 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 264 32)
+		(output)
+		(text "angle1_1[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle1_1[17..0]" (rect 137 27 243 39)(font "Arial" ))
+		(line (pt 264 32)(pt 248 32)(line_width 3))
+	)
+	(port
+		(pt 264 48)
+		(output)
+		(text "angle1_2[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle1_2[17..0]" (rect 137 43 243 55)(font "Arial" ))
+		(line (pt 264 48)(pt 248 48)(line_width 3))
+	)
+	(port
+		(pt 264 64)
+		(output)
+		(text "angle1_3[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle1_3[17..0]" (rect 137 59 243 71)(font "Arial" ))
+		(line (pt 264 64)(pt 248 64)(line_width 3))
+	)
+	(port
+		(pt 264 80)
+		(output)
+		(text "angle2_1[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle2_1[17..0]" (rect 137 75 243 87)(font "Arial" ))
+		(line (pt 264 80)(pt 248 80)(line_width 3))
+	)
+	(port
+		(pt 264 96)
+		(output)
+		(text "angle2_2[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle2_2[17..0]" (rect 137 91 243 103)(font "Arial" ))
+		(line (pt 264 96)(pt 248 96)(line_width 3))
+	)
+	(port
+		(pt 264 112)
+		(output)
+		(text "angle2_3[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle2_3[17..0]" (rect 137 107 243 119)(font "Arial" ))
+		(line (pt 264 112)(pt 248 112)(line_width 3))
+	)
+	(port
+		(pt 264 128)
+		(output)
+		(text "angle3_1[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle3_1[17..0]" (rect 137 123 243 135)(font "Arial" ))
+		(line (pt 264 128)(pt 248 128)(line_width 3))
+	)
+	(port
+		(pt 264 144)
+		(output)
+		(text "angle3_2[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle3_2[17..0]" (rect 137 139 243 151)(font "Arial" ))
+		(line (pt 264 144)(pt 248 144)(line_width 3))
+	)
+	(port
+		(pt 264 160)
+		(output)
+		(text "angle3_3[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle3_3[17..0]" (rect 137 155 243 167)(font "Arial" ))
+		(line (pt 264 160)(pt 248 160)(line_width 3))
+	)
+	(port
+		(pt 264 176)
+		(output)
+		(text "angle4_1[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle4_1[17..0]" (rect 137 171 243 183)(font "Arial" ))
+		(line (pt 264 176)(pt 248 176)(line_width 3))
+	)
+	(port
+		(pt 264 192)
+		(output)
+		(text "angle4_2[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle4_2[17..0]" (rect 137 187 243 199)(font "Arial" ))
+		(line (pt 264 192)(pt 248 192)(line_width 3))
+	)
+	(port
+		(pt 264 208)
+		(output)
+		(text "angle4_3[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle4_3[17..0]" (rect 137 203 243 215)(font "Arial" ))
+		(line (pt 264 208)(pt 248 208)(line_width 3))
+	)
+	(port
+		(pt 264 224)
+		(output)
+		(text "angle5_1[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle5_1[17..0]" (rect 137 219 243 231)(font "Arial" ))
+		(line (pt 264 224)(pt 248 224)(line_width 3))
+	)
+	(port
+		(pt 264 240)
+		(output)
+		(text "angle5_2[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle5_2[17..0]" (rect 137 235 243 247)(font "Arial" ))
+		(line (pt 264 240)(pt 248 240)(line_width 3))
+	)
+	(port
+		(pt 264 256)
+		(output)
+		(text "angle5_3[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle5_3[17..0]" (rect 137 251 243 263)(font "Arial" ))
+		(line (pt 264 256)(pt 248 256)(line_width 3))
+	)
+	(port
+		(pt 264 272)
+		(output)
+		(text "angle6_1[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle6_1[17..0]" (rect 137 267 243 279)(font "Arial" ))
+		(line (pt 264 272)(pt 248 272)(line_width 3))
+	)
+	(port
+		(pt 264 288)
+		(output)
+		(text "angle6_2[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle6_2[17..0]" (rect 137 283 243 295)(font "Arial" ))
+		(line (pt 264 288)(pt 248 288)(line_width 3))
+	)
+	(port
+		(pt 264 304)
+		(output)
+		(text "angle6_3[17..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "angle6_3[17..0]" (rect 137 299 243 311)(font "Arial" ))
+		(line (pt 264 304)(pt 248 304)(line_width 3))
+	)
+	(port
+		(pt 264 320)
+		(output)
+		(text "request_new_coord" (rect 0 0 120 12)(font "Arial" ))
+		(text "request_new_coord" (rect 123 315 243 327)(font "Arial" ))
+		(line (pt 264 320)(pt 248 320)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 248 336)(line_width 1))
+	)
+)

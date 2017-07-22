@@ -1,0 +1,260 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 832 368)
+	(text "cpu_jtag_debug_module_arbitrator" (rect 5 0 231 12)(font "Arial" ))
+	(text "inst" (rect 8 336 36 348)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 21 12)(font "Arial" ))
+		(text "clk" (rect 21 27 42 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "cpu_data_master_address_to_slave[17..0]" (rect 0 0 276 12)(font "Arial" ))
+		(text "cpu_data_master_address_to_slave[17..0]" (rect 21 43 297 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "cpu_data_master_byteenable[3..0]" (rect 0 0 226 12)(font "Arial" ))
+		(text "cpu_data_master_byteenable[3..0]" (rect 21 59 247 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "cpu_data_master_debugaccess" (rect 0 0 191 12)(font "Arial" ))
+		(text "cpu_data_master_debugaccess" (rect 21 75 212 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "cpu_data_master_latency_counter" (rect 0 0 219 12)(font "Arial" ))
+		(text "cpu_data_master_latency_counter" (rect 21 91 240 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "cpu_data_master_read" (rect 0 0 141 12)(font "Arial" ))
+		(text "cpu_data_master_read" (rect 21 107 162 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "cpu_data_master_write" (rect 0 0 148 12)(font "Arial" ))
+		(text "cpu_data_master_write" (rect 21 123 169 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "cpu_data_master_writedata[31..0]" (rect 0 0 226 12)(font "Arial" ))
+		(text "cpu_data_master_writedata[31..0]" (rect 21 139 247 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "cpu_instruction_master_address_to_slave[17..0]" (rect 0 0 325 12)(font "Arial" ))
+		(text "cpu_instruction_master_address_to_slave[17..0]" (rect 21 155 346 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "cpu_instruction_master_latency_counter" (rect 0 0 269 12)(font "Arial" ))
+		(text "cpu_instruction_master_latency_counter" (rect 21 171 290 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "cpu_instruction_master_read" (rect 0 0 191 12)(font "Arial" ))
+		(text "cpu_instruction_master_read" (rect 21 187 212 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "cpu_jtag_debug_module_readdata[31..0]" (rect 0 0 261 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_readdata[31..0]" (rect 21 203 282 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "cpu_jtag_debug_module_resetrequest" (rect 0 0 240 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_resetrequest" (rect 21 219 261 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "reset_n" (rect 0 0 49 12)(font "Arial" ))
+		(text "reset_n" (rect 21 235 70 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 1))
+	)
+	(port
+		(pt 816 32)
+		(output)
+		(text "cpu_data_master_granted_cpu_jtag_debug_module" (rect 0 0 318 12)(font "Arial" ))
+		(text "cpu_data_master_granted_cpu_jtag_debug_module" (rect 477 27 795 39)(font "Arial" ))
+		(line (pt 816 32)(pt 800 32)(line_width 1))
+	)
+	(port
+		(pt 816 48)
+		(output)
+		(text "cpu_data_master_qualified_request_cpu_jtag_debug_module" (rect 0 0 389 12)(font "Arial" ))
+		(text "cpu_data_master_qualified_request_cpu_jtag_debug_module" (rect 406 43 795 55)(font "Arial" ))
+		(line (pt 816 48)(pt 800 48)(line_width 1))
+	)
+	(port
+		(pt 816 64)
+		(output)
+		(text "cpu_data_master_read_data_valid_cpu_jtag_debug_module" (rect 0 0 375 12)(font "Arial" ))
+		(text "cpu_data_master_read_data_valid_cpu_jtag_debug_module" (rect 420 59 795 71)(font "Arial" ))
+		(line (pt 816 64)(pt 800 64)(line_width 1))
+	)
+	(port
+		(pt 816 80)
+		(output)
+		(text "cpu_data_master_requests_cpu_jtag_debug_module" (rect 0 0 325 12)(font "Arial" ))
+		(text "cpu_data_master_requests_cpu_jtag_debug_module" (rect 470 75 795 87)(font "Arial" ))
+		(line (pt 816 80)(pt 800 80)(line_width 1))
+	)
+	(port
+		(pt 816 96)
+		(output)
+		(text "cpu_instruction_master_granted_cpu_jtag_debug_module" (rect 0 0 368 12)(font "Arial" ))
+		(text "cpu_instruction_master_granted_cpu_jtag_debug_module" (rect 427 91 795 103)(font "Arial" ))
+		(line (pt 816 96)(pt 800 96)(line_width 1))
+	)
+	(port
+		(pt 816 112)
+		(output)
+		(text "cpu_instruction_master_qualified_request_cpu_jtag_debug_module" (rect 0 0 438 12)(font "Arial" ))
+		(text "cpu_instruction_master_qualified_request_cpu_jtag_debug_module" (rect 357 107 795 119)(font "Arial" ))
+		(line (pt 816 112)(pt 800 112)(line_width 1))
+	)
+	(port
+		(pt 816 128)
+		(output)
+		(text "cpu_instruction_master_read_data_valid_cpu_jtag_debug_module" (rect 0 0 424 12)(font "Arial" ))
+		(text "cpu_instruction_master_read_data_valid_cpu_jtag_debug_module" (rect 371 123 795 135)(font "Arial" ))
+		(line (pt 816 128)(pt 800 128)(line_width 1))
+	)
+	(port
+		(pt 816 144)
+		(output)
+		(text "cpu_instruction_master_requests_cpu_jtag_debug_module" (rect 0 0 375 12)(font "Arial" ))
+		(text "cpu_instruction_master_requests_cpu_jtag_debug_module" (rect 420 139 795 151)(font "Arial" ))
+		(line (pt 816 144)(pt 800 144)(line_width 1))
+	)
+	(port
+		(pt 816 160)
+		(output)
+		(text "cpu_jtag_debug_module_address[8..0]" (rect 0 0 247 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_address[8..0]" (rect 548 155 795 167)(font "Arial" ))
+		(line (pt 816 160)(pt 800 160)(line_width 3))
+	)
+	(port
+		(pt 816 176)
+		(output)
+		(text "cpu_jtag_debug_module_begintransfer" (rect 0 0 247 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_begintransfer" (rect 548 171 795 183)(font "Arial" ))
+		(line (pt 816 176)(pt 800 176)(line_width 1))
+	)
+	(port
+		(pt 816 192)
+		(output)
+		(text "cpu_jtag_debug_module_byteenable[3..0]" (rect 0 0 269 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_byteenable[3..0]" (rect 526 187 795 199)(font "Arial" ))
+		(line (pt 816 192)(pt 800 192)(line_width 3))
+	)
+	(port
+		(pt 816 208)
+		(output)
+		(text "cpu_jtag_debug_module_chipselect" (rect 0 0 226 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_chipselect" (rect 569 203 795 215)(font "Arial" ))
+		(line (pt 816 208)(pt 800 208)(line_width 1))
+	)
+	(port
+		(pt 816 224)
+		(output)
+		(text "cpu_jtag_debug_module_debugaccess" (rect 0 0 233 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_debugaccess" (rect 562 219 795 231)(font "Arial" ))
+		(line (pt 816 224)(pt 800 224)(line_width 1))
+	)
+	(port
+		(pt 816 240)
+		(output)
+		(text "cpu_jtag_debug_module_readdata_from_sa[31..0]" (rect 0 0 318 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_readdata_from_sa[31..0]" (rect 477 235 795 247)(font "Arial" ))
+		(line (pt 816 240)(pt 800 240)(line_width 3))
+	)
+	(port
+		(pt 816 256)
+		(output)
+		(text "cpu_jtag_debug_module_reset_n" (rect 0 0 205 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_reset_n" (rect 590 251 795 263)(font "Arial" ))
+		(line (pt 816 256)(pt 800 256)(line_width 1))
+	)
+	(port
+		(pt 816 272)
+		(output)
+		(text "cpu_jtag_debug_module_resetrequest_from_sa" (rect 0 0 297 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_resetrequest_from_sa" (rect 498 267 795 279)(font "Arial" ))
+		(line (pt 816 272)(pt 800 272)(line_width 1))
+	)
+	(port
+		(pt 816 288)
+		(output)
+		(text "cpu_jtag_debug_module_write" (rect 0 0 191 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_write" (rect 604 283 795 295)(font "Arial" ))
+		(line (pt 816 288)(pt 800 288)(line_width 1))
+	)
+	(port
+		(pt 816 304)
+		(output)
+		(text "cpu_jtag_debug_module_writedata[31..0]" (rect 0 0 269 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_writedata[31..0]" (rect 526 299 795 311)(font "Arial" ))
+		(line (pt 816 304)(pt 800 304)(line_width 3))
+	)
+	(port
+		(pt 816 320)
+		(output)
+		(text "d1_cpu_jtag_debug_module_end_xfer" (rect 0 0 233 12)(font "Arial" ))
+		(text "d1_cpu_jtag_debug_module_end_xfer" (rect 562 315 795 327)(font "Arial" ))
+		(line (pt 816 320)(pt 800 320)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 800 336)(line_width 1))
+	)
+)

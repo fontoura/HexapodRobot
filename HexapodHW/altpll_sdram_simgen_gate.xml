@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<signals>
+	<signal>
+		<gate>\prev_reset~regout</gate>
+		<simgen>altpll_sdram_prev_reset_20q</simgen>
+		<is_inverted>0</is_inverted>
+	</signal>
+	<signal>
+		<gate>\pfdena_reg~regout</gate>
+		<simgen>altpll_sdram_pfdena_reg_24q</simgen>
+		<is_inverted>1</is_inverted>
+	</signal>
+	<signal>
+		<gate>\sd1|pll_lock_sync~regout</gate>
+		<simgen>altpll_sdram_altpll_sdram_altpll_n942_sd1_pll_lock_sync_119q</simgen>
+		<is_inverted>0</is_inverted>
+	</signal>
+	<signal>
+		<gate>\stdsync2|dffpipe3|dffe4a[0]</gate>
+		<simgen>altpll_sdram_altpll_sdram_stdsync_sv6_stdsync2_altpll_sdram_dffpipe_l2c_dffpipe3_dffe4a_0_107q</simgen>
+		<is_inverted>0</is_inverted>
+	</signal>
+	<signal>
+		<gate>\stdsync2|dffpipe3|dffe5a[0]</gate>
+		<simgen>altpll_sdram_altpll_sdram_stdsync_sv6_stdsync2_altpll_sdram_dffpipe_l2c_dffpipe3_dffe5a_0_110q</simgen>
+		<is_inverted>0</is_inverted>
+	</signal>
+	<signal>
+		<gate>\stdsync2|dffpipe3|dffe6a[0]</gate>
+		<simgen>altpll_sdram_altpll_sdram_stdsync_sv6_stdsync2_altpll_sdram_dffpipe_l2c_dffpipe3_dffe6a_0_111q</simgen>
+		<is_inverted>0</is_inverted>
+	</signal>
+</signals>

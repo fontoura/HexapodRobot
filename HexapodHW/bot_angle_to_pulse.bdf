@@ -1,0 +1,2889 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 24 176 200 192)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle1_1[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 320 200 336)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle1_2[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 464 200 480)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle1_3[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 608 200 624)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle2_1[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 752 200 768)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle2_2[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 896 200 912)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle2_3[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 1040 200 1056)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle3_1[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 1184 200 1200)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle3_2[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 1328 200 1344)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle3_3[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 1472 200 1488)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle4_1[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 1616 200 1632)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle4_2[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 1760 200 1776)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle4_3[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 1904 200 1920)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle5_1[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 2048 200 2064)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle5_2[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 2192 200 2208)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle5_3[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 2336 200 2352)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle6_1[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 2480 200 2496)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle6_2[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 24 2624 200 2640)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "angle6_3[7..0]" (rect 9 0 78 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 32 2752 208 2768)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "clock" (rect 9 0 34 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 1288 176 1464 192)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm1_1" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 320 1464 336)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm1_2" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 464 1464 480)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm1_3" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 608 1464 624)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm2_1" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 752 1464 768)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm2_2" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 896 1464 912)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm2_3" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 1040 1464 1056)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm3_1" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 1184 1464 1200)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm3_2" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 1328 1464 1344)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm3_3" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 1472 1464 1488)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm4_1" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 1616 1464 1632)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm4_2" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 1760 1464 1776)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm4_3" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 1904 1464 1920)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm5_1" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 2048 1464 2064)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm5_2" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 2192 1464 2208)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm5_3" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 2336 1464 2352)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm6_1" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 2480 1464 2496)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm6_2" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1288 2624 1464 2640)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "pwm6_3" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 728 440 1088 536)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst21" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"0"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 352 1288 440))
+)
+(symbol
+	(rect 728 296 1088 392)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst22" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"-75"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 208 1278 292))
+)
+(symbol
+	(rect 728 2168 1088 2264)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst34" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"0"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 2080 1288 2168))
+)
+(symbol
+	(rect 728 872 1088 968)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst25" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"150"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 784 1278 868))
+)
+(symbol
+	(rect 728 1304 1088 1400)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst26" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"50"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 1216 1278 1300))
+)
+(symbol
+	(rect 728 1592 1088 1688)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst36" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"125"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 1504 1278 1588))
+)
+(symbol
+	(rect 728 1736 1088 1832)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst39" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"50"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 1648 1278 1732))
+)
+(symbol
+	(rect 728 2024 1088 2120)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst41" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"100"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 1936 1278 2020))
+)
+(symbol
+	(rect 728 2600 1088 2696)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst46" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"-25"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 2512 1278 2596))
+)
+(symbol
+	(rect 272 152 488 248)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1125"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"1875"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 80 672 150))
+)
+(symbol
+	(rect 272 296 488 392)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst16" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 224 672 294))
+)
+(symbol
+	(rect 272 440 488 536)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst17" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 368 672 438))
+)
+(symbol
+	(rect 272 584 488 680)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst18" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1125"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"1875"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 512 672 582))
+)
+(symbol
+	(rect 272 728 488 824)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst19" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 656 672 726))
+)
+(symbol
+	(rect 272 872 488 968)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst23" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 800 672 870))
+)
+(symbol
+	(rect 272 1016 488 1112)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst27" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1125"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"1875"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 944 672 1014))
+)
+(symbol
+	(rect 272 1160 488 1256)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst28" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 1088 672 1158))
+)
+(symbol
+	(rect 272 1304 488 1400)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst32" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 1232 672 1302))
+)
+(symbol
+	(rect 272 1448 488 1544)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst33" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1125"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"1875"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 1376 672 1446))
+)
+(symbol
+	(rect 272 1592 488 1688)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst37" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 1520 672 1590))
+)
+(symbol
+	(rect 272 1736 488 1832)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst38" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 1664 672 1734))
+)
+(symbol
+	(rect 272 1880 488 1976)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst42" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1125"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"1875"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 1808 672 1878))
+)
+(symbol
+	(rect 272 2024 488 2120)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst43" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 1952 672 2022))
+)
+(symbol
+	(rect 272 2168 488 2264)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst47" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 2096 672 2166))
+)
+(symbol
+	(rect 272 2312 488 2408)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst48" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1125"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"1875"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 2240 672 2310))
+)
+(symbol
+	(rect 272 2456 488 2552)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst49" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 2384 672 2454))
+)
+(symbol
+	(rect 272 2600 488 2696)
+	(text "Angle_to_PulseWidth" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst50" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "angle[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "angle[7..0]" (rect 21 27 72 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "pulse[17..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "pulse[17..0]" (rect 147 27 204 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(parameter
+		"angle_min"
+		"45"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"angle_max"
+		"135"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_min"
+		"1000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse_max"
+		"2000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 200 80))
+	)
+	(annotation_block (parameter)(rect 488 2528 672 2598))
+)
+(symbol
+	(rect 728 584 1088 680)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst24" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"100"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 496 1278 580))
+)
+(symbol
+	(rect 728 1016 1088 1112)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst29" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"-50"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 928 1278 1012))
+)
+(symbol
+	(rect 728 1448 1088 1544)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst35" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"0"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 1360 1278 1444))
+)
+(symbol
+	(rect 728 1880 1088 1976)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst40" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"0"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 1792 1278 1876))
+)
+(symbol
+	(rect 728 152 1088 248)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst20" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"50"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 64 1278 148))
+)
+(symbol
+	(rect 728 2312 1088 2408)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst44" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"0"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 2224 1278 2308))
+)
+(symbol
+	(rect 728 728 1088 824)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst30" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"20"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 640 1278 724))
+)
+(symbol
+	(rect 728 1160 1088 1256)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst31" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"-130"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 1072 1278 1156))
+)
+(symbol
+	(rect 728 2456 1088 2552)
+	(text "SignalGenerator" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst45" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 0 0 155 12)(font "Arial" ))
+		(text "PulseWidthIn[widthofpulse-1..0]" (rect 21 27 176 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ClockIn" (rect 0 0 37 12)(font "Arial" ))
+		(text "ClockIn" (rect 21 43 58 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "SignalOutNot" (rect 0 0 64 12)(font "Arial" ))
+		(text "SignalOutNot" (rect 285 27 349 39)(font "Arial" ))
+		(line (pt 360 32)(pt 344 32))
+	)
+	(parameter
+		"WidthOfPulse"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"WidthOfPeriod"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Period"
+		"2000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"pulse"
+		"1500"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"offset"
+		"85"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 344 80))
+	)
+	(annotation_block (parameter)(rect 1064 2368 1278 2452))
+)
+(connector
+	(pt 200 184)
+	(pt 272 184)
+	(bus)
+)
+(connector
+	(pt 200 328)
+	(pt 272 328)
+	(bus)
+)
+(connector
+	(pt 272 472)
+	(pt 200 472)
+	(bus)
+)
+(connector
+	(pt 200 616)
+	(pt 272 616)
+	(bus)
+)
+(connector
+	(pt 200 760)
+	(pt 272 760)
+	(bus)
+)
+(connector
+	(pt 200 904)
+	(pt 272 904)
+	(bus)
+)
+(connector
+	(pt 272 1192)
+	(pt 200 1192)
+	(bus)
+)
+(connector
+	(pt 272 1336)
+	(pt 200 1336)
+	(bus)
+)
+(connector
+	(pt 272 1480)
+	(pt 200 1480)
+	(bus)
+)
+(connector
+	(pt 272 1624)
+	(pt 200 1624)
+	(bus)
+)
+(connector
+	(pt 272 1768)
+	(pt 200 1768)
+	(bus)
+)
+(connector
+	(pt 200 1912)
+	(pt 272 1912)
+	(bus)
+)
+(connector
+	(pt 200 2056)
+	(pt 272 2056)
+	(bus)
+)
+(connector
+	(pt 200 2200)
+	(pt 272 2200)
+	(bus)
+)
+(connector
+	(pt 200 2344)
+	(pt 272 2344)
+	(bus)
+)
+(connector
+	(pt 200 2488)
+	(pt 272 2488)
+	(bus)
+)
+(connector
+	(pt 200 2632)
+	(pt 272 2632)
+	(bus)
+)
+(connector
+	(pt 200 1048)
+	(pt 272 1048)
+	(bus)
+)
+(connector
+	(pt 688 2648)
+	(pt 688 2760)
+)
+(connector
+	(pt 688 2504)
+	(pt 688 2648)
+)
+(connector
+	(pt 688 2360)
+	(pt 688 2504)
+)
+(connector
+	(pt 688 2216)
+	(pt 688 2360)
+)
+(connector
+	(pt 688 2072)
+	(pt 688 2216)
+)
+(connector
+	(pt 688 1928)
+	(pt 688 2072)
+)
+(connector
+	(pt 688 1784)
+	(pt 688 1928)
+)
+(connector
+	(pt 688 1640)
+	(pt 688 1784)
+)
+(connector
+	(pt 688 1496)
+	(pt 688 1640)
+)
+(connector
+	(pt 688 1352)
+	(pt 688 1496)
+)
+(connector
+	(pt 688 920)
+	(pt 688 1064)
+)
+(connector
+	(pt 688 776)
+	(pt 688 920)
+)
+(connector
+	(pt 688 632)
+	(pt 688 776)
+)
+(connector
+	(pt 688 200)
+	(pt 688 344)
+)
+(connector
+	(pt 688 1064)
+	(pt 688 1208)
+)
+(connector
+	(pt 688 1208)
+	(pt 688 1352)
+)
+(connector
+	(pt 688 344)
+	(pt 688 488)
+)
+(connector
+	(pt 688 488)
+	(pt 688 632)
+)
+(connector
+	(pt 688 2648)
+	(pt 728 2648)
+)
+(connector
+	(pt 688 2504)
+	(pt 728 2504)
+)
+(connector
+	(pt 688 2360)
+	(pt 728 2360)
+)
+(connector
+	(pt 688 2216)
+	(pt 728 2216)
+)
+(connector
+	(pt 688 2072)
+	(pt 728 2072)
+)
+(connector
+	(pt 688 1928)
+	(pt 728 1928)
+)
+(connector
+	(pt 688 1784)
+	(pt 728 1784)
+)
+(connector
+	(pt 688 1640)
+	(pt 728 1640)
+)
+(connector
+	(pt 688 1496)
+	(pt 728 1496)
+)
+(connector
+	(pt 688 1352)
+	(pt 728 1352)
+)
+(connector
+	(pt 688 1064)
+	(pt 728 1064)
+)
+(connector
+	(pt 688 920)
+	(pt 728 920)
+)
+(connector
+	(pt 688 776)
+	(pt 728 776)
+)
+(connector
+	(pt 688 632)
+	(pt 728 632)
+)
+(connector
+	(pt 688 344)
+	(pt 728 344)
+)
+(connector
+	(pt 688 200)
+	(pt 728 200)
+)
+(connector
+	(pt 688 1208)
+	(pt 728 1208)
+)
+(connector
+	(pt 688 488)
+	(pt 728 488)
+)
+(connector
+	(pt 1064 472)
+	(pt 1088 472)
+)
+(connector
+	(pt 1088 472)
+	(pt 1288 472)
+)
+(connector
+	(pt 1064 184)
+	(pt 1088 184)
+)
+(connector
+	(pt 1088 184)
+	(pt 1288 184)
+)
+(connector
+	(pt 1064 328)
+	(pt 1088 328)
+)
+(connector
+	(pt 1088 328)
+	(pt 1288 328)
+)
+(connector
+	(pt 1064 2200)
+	(pt 1088 2200)
+)
+(connector
+	(pt 1088 2200)
+	(pt 1288 2200)
+)
+(connector
+	(pt 1064 616)
+	(pt 1088 616)
+)
+(connector
+	(pt 1088 616)
+	(pt 1288 616)
+)
+(connector
+	(pt 1064 904)
+	(pt 1088 904)
+)
+(connector
+	(pt 1088 904)
+	(pt 1288 904)
+)
+(connector
+	(pt 1064 1048)
+	(pt 1088 1048)
+)
+(connector
+	(pt 1088 1048)
+	(pt 1288 1048)
+)
+(connector
+	(pt 1064 1336)
+	(pt 1088 1336)
+)
+(connector
+	(pt 1088 1336)
+	(pt 1288 1336)
+)
+(connector
+	(pt 1064 760)
+	(pt 1088 760)
+)
+(connector
+	(pt 1088 760)
+	(pt 1288 760)
+)
+(connector
+	(pt 1064 1192)
+	(pt 1088 1192)
+)
+(connector
+	(pt 1088 1192)
+	(pt 1288 1192)
+)
+(connector
+	(pt 1064 1480)
+	(pt 1088 1480)
+)
+(connector
+	(pt 1088 1480)
+	(pt 1288 1480)
+)
+(connector
+	(pt 1064 1624)
+	(pt 1088 1624)
+)
+(connector
+	(pt 1088 1624)
+	(pt 1288 1624)
+)
+(connector
+	(pt 1064 1768)
+	(pt 1088 1768)
+)
+(connector
+	(pt 1088 1768)
+	(pt 1288 1768)
+)
+(connector
+	(pt 1064 1912)
+	(pt 1088 1912)
+)
+(connector
+	(pt 1088 1912)
+	(pt 1288 1912)
+)
+(connector
+	(pt 1064 2056)
+	(pt 1088 2056)
+)
+(connector
+	(pt 1088 2056)
+	(pt 1288 2056)
+)
+(connector
+	(pt 1064 2344)
+	(pt 1088 2344)
+)
+(connector
+	(pt 1088 2344)
+	(pt 1288 2344)
+)
+(connector
+	(pt 1064 2632)
+	(pt 1088 2632)
+)
+(connector
+	(pt 1088 2632)
+	(pt 1288 2632)
+)
+(connector
+	(pt 1064 2488)
+	(pt 1088 2488)
+)
+(connector
+	(pt 1088 2488)
+	(pt 1288 2488)
+)
+(connector
+	(pt 200 2760)
+	(pt 208 2760)
+)
+(connector
+	(pt 208 2760)
+	(pt 688 2760)
+)
+(connector
+	(pt 488 2632)
+	(pt 728 2632)
+	(bus)
+)
+(connector
+	(pt 488 2488)
+	(pt 728 2488)
+	(bus)
+)
+(connector
+	(pt 488 2344)
+	(pt 728 2344)
+	(bus)
+)
+(connector
+	(pt 488 2200)
+	(pt 728 2200)
+	(bus)
+)
+(connector
+	(pt 488 2056)
+	(pt 728 2056)
+	(bus)
+)
+(connector
+	(pt 488 1912)
+	(pt 728 1912)
+	(bus)
+)
+(connector
+	(pt 488 1768)
+	(pt 728 1768)
+	(bus)
+)
+(connector
+	(pt 488 1624)
+	(pt 728 1624)
+	(bus)
+)
+(connector
+	(pt 488 1480)
+	(pt 728 1480)
+	(bus)
+)
+(connector
+	(pt 488 1336)
+	(pt 728 1336)
+	(bus)
+)
+(connector
+	(pt 488 1192)
+	(pt 728 1192)
+	(bus)
+)
+(connector
+	(pt 488 1048)
+	(pt 728 1048)
+	(bus)
+)
+(connector
+	(pt 488 904)
+	(pt 728 904)
+	(bus)
+)
+(connector
+	(pt 488 760)
+	(pt 728 760)
+	(bus)
+)
+(connector
+	(pt 488 616)
+	(pt 728 616)
+	(bus)
+)
+(connector
+	(pt 488 472)
+	(pt 728 472)
+	(bus)
+)
+(connector
+	(pt 488 328)
+	(pt 728 328)
+	(bus)
+)
+(connector
+	(pt 488 184)
+	(pt 728 184)
+	(bus)
+)
+(junction (pt 688 2504))
+(junction (pt 688 2360))
+(junction (pt 688 2216))
+(junction (pt 688 2072))
+(junction (pt 688 1928))
+(junction (pt 688 1784))
+(junction (pt 688 1640))
+(junction (pt 688 1496))
+(junction (pt 688 1352))
+(junction (pt 688 1064))
+(junction (pt 688 920))
+(junction (pt 688 776))
+(junction (pt 688 632))
+(junction (pt 688 488))
+(junction (pt 688 344))
+(junction (pt 688 2648))
+(junction (pt 208 2760))
+(junction (pt 688 1208))
+(junction (pt 1088 472))
+(junction (pt 1088 328))
+(junction (pt 1088 184))
+(junction (pt 1088 616))
+(junction (pt 1088 760))
+(junction (pt 1088 904))
+(junction (pt 1088 1048))
+(junction (pt 1088 1192))
+(junction (pt 1088 1336))
+(junction (pt 1088 1480))
+(junction (pt 1088 1624))
+(junction (pt 1088 1768))
+(junction (pt 1088 1912))
+(junction (pt 1088 2056))
+(junction (pt 1088 2200))
+(junction (pt 1088 2344))
+(junction (pt 1088 2488))
+(junction (pt 1088 2632))

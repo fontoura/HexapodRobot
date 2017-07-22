@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- system.h.gtf
+         This "subroutine" generates the system.h text for the
+         altera_avalon_uart class of components.  It expects the following
+         variables to have been exported:
+                MODULE
+                MODULE_NAME
+                MODULE_SLAVE_NAME_UPPER
+                MMU_PRESENT
+                SHOW_OR
+                BASE_ADDRESS
+                HAS_IRQ
+                IRQ
+-->
+
+<generate_set>
+
+    <set_variable variable="MODULE_CLASS" to="fifoed_avalon_uart"/>
+    <export variable="MODULE_CLASS"/>
+    <call gtf="%GTF_DIR%/system.h_component_output.gtf"/>
+
+    <call gtf="%GTF_DIR%/MODULE_FREQ.gtf"/>
+    <text>
+#define %MODULE_SLAVE_NAME_UPPER%_FREQ %MODULE_FREQ%
+    </text>
+
+</generate_set>

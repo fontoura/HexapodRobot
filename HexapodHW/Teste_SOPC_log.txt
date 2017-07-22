@@ -1,0 +1,107 @@
+Altera SOPC Builder Version 12.02 Build 263
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2013.05.11 20:51:13 (*) mk_custom_sdk starting
+# 2013.05.11 20:51:13 (*) Reading project D:/Dropbox/Dropbox/TCC/Teste_NIOS-Invkin_geo/Teste_SOPC.ptf.
+
+# 2013.05.11 20:51:13 (*) Finding all CPUs
+# 2013.05.11 20:51:13 (*) Finding all available components
+# 2013.05.11 20:51:13 (*) Reading D:/Dropbox/Dropbox/TCC/Teste_NIOS-Invkin_geo/.sopc_builder/install.ptf
+
+# 2013.05.11 20:51:13 (*) Found 63 components
+
+# 2013.05.11 20:51:14 (*) Finding all peripherals
+
+# 2013.05.11 20:51:14 (*) Finding software components
+
+# 2013.05.11 20:51:14 (*) (Legacy SDK Generation Skipped)
+# 2013.05.11 20:51:14 (*) (All TCL Script Generation Skipped)
+# 2013.05.11 20:51:14 (*) (No Libraries Built)
+# 2013.05.11 20:51:14 (*) (Contents Generation Skipped)
+# 2013.05.11 20:51:14 (*) mk_custom_sdk finishing
+
+# 2013.05.11 20:51:14 (*) Starting generation for system: Teste_SOPC.
+
+.
+.
+.
+.
+.
+.
+........
+..
+
+# 2013.05.11 20:51:16 (*) Running Generator Program for cpu
+
+# 2013.05.11 20:51:17 (*) Starting Nios II generation
+# 2013.05.11 20:51:17 (*)   Checking for plaintext license.
+# 2013.05.11 20:51:17 (*)   Couldn't query license setup in Quartus directory d:/altera/12.0sp2/quartus
+# 2013.05.11 20:51:17 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+# 2013.05.11 20:51:17 (*)   LM_LICENSE_FILE environment variable is empty
+# 2013.05.11 20:51:17 (*)   Plaintext license not found.
+# 2013.05.11 20:51:17 (*)   No license required to generate encrypted Nios II/e.
+
+# 2013.05.11 20:51:17 (*)   Getting CPU configuration settings
+# 2013.05.11 20:51:17 (*)   Elaborating CPU configuration settings
+# 2013.05.11 20:51:17 (*)   Creating all objects for CPU
+# 2013.05.11 20:51:19 (*)   Generating HDL from CPU objects
+# 2013.05.11 20:51:19 (*)   Creating plain-text HDL
+# 2013.05.11 20:51:23 (*) Done Nios II generation
+
+# 2013.05.11 20:51:23 (*) Running Generator Program for jtag_uart
+
+# 2013.05.11 20:51:25 (*) Running Generator Program for pio_led
+
+# 2013.05.11 20:51:26 (*) Running Generator Program for spi
+
+# 2013.05.11 20:51:27 (*) Running Generator Program for sdram
+
+# 2013.05.11 20:51:28 (*) Running Generator Program for timer_sys
+
+# 2013.05.11 20:51:29 (*) Running Generator Program for pio_bot_x
+
+# 2013.05.11 20:51:30 (*) Running Generator Program for pio_bot_y
+
+# 2013.05.11 20:51:31 (*) Running Generator Program for pio_bot_z
+
+# 2013.05.11 20:51:32 (*) Running Generator Program for pio_bot_endcalc
+
+# 2013.05.11 20:51:33 (*) Running Generator Program for pio_bot_reset
+
+# 2013.05.11 20:51:34 (*) Running Generator Program for pio_bot_legselect
+
+# 2013.05.11 20:51:35 (*) Running Generator Program for pio_bot_updateflag
+
+# 2013.05.11 20:51:35 (*) Running Generator Program for pio_bot_wrcoord
+
+# 2013.05.11 20:51:36 (*) Running Generator Program for Teste_SOPC_clock_0
+
+# 2013.05.11 20:51:38 (*) Running Generator Program for Teste_SOPC_clock_1
+
+.
+
+# 2013.05.11 20:51:39 (*) Running Test Generator Program for sdram
+
+# 2013.05.11 20:51:39 (*) Making arbitration and system (top) modules.
+
+# 2013.05.11 20:51:51 (*) Generating Quartus symbol for top level: Teste_SOPC
+
+# 2013.05.11 20:51:51 (*) Generating Symbol D:/Dropbox/Dropbox/TCC/Teste_NIOS-Invkin_geo/Teste_SOPC.bsf
+
+# 2013.05.11 20:51:51 (*) Creating command-line system-generation script: D:/Dropbox/Dropbox/TCC/Teste_NIOS-Invkin_geo/Teste_SOPC_generation_script
+
+# 2013.05.11 20:51:51 (*) Running setup for HDL simulator: modelsim
+
+
+# 2013.05.11 20:51:52 (*) Completed generation for system: Teste_SOPC.
+# 2013.05.11 20:51:52 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : D:/Dropbox/Dropbox/TCC/Teste_NIOS-Invkin_geo/Teste_SOPC.ptf 
+  System HDL Model : D:/Dropbox/Dropbox/TCC/Teste_NIOS-Invkin_geo/Teste_SOPC.vhd 
+  System Generation Script : D:/Dropbox/Dropbox/TCC/Teste_NIOS-Invkin_geo/Teste_SOPC_generation_script 
+
+# 2013.05.11 20:51:52 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

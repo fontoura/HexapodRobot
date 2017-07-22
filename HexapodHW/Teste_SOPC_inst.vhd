@@ -1,0 +1,41 @@
+  --Example instantiation for system 'Teste_SOPC'
+  Teste_SOPC_inst : Teste_SOPC
+    port map(
+      MOSI_from_the_spi => MOSI_from_the_spi,
+      SCLK_from_the_spi => SCLK_from_the_spi,
+      SPI_CS_n_from_the_TERASIC_SPI_3WIRE_0 => SPI_CS_n_from_the_TERASIC_SPI_3WIRE_0,
+      SPI_SCLK_from_the_TERASIC_SPI_3WIRE_0 => SPI_SCLK_from_the_TERASIC_SPI_3WIRE_0,
+      SPI_SDIO_to_and_from_the_TERASIC_SPI_3WIRE_0 => SPI_SDIO_to_and_from_the_TERASIC_SPI_3WIRE_0,
+      SS_n_from_the_spi => SS_n_from_the_spi,
+      altpll_sdram_c0 => altpll_sdram_c0,
+      locked_from_the_altpll_sdram => locked_from_the_altpll_sdram,
+      out_port_from_the_pio_bot_legselect => out_port_from_the_pio_bot_legselect,
+      out_port_from_the_pio_bot_reset => out_port_from_the_pio_bot_reset,
+      out_port_from_the_pio_bot_updateflag => out_port_from_the_pio_bot_updateflag,
+      out_port_from_the_pio_bot_wrcoord => out_port_from_the_pio_bot_wrcoord,
+      out_port_from_the_pio_bot_x => out_port_from_the_pio_bot_x,
+      out_port_from_the_pio_bot_y => out_port_from_the_pio_bot_y,
+      out_port_from_the_pio_bot_z => out_port_from_the_pio_bot_z,
+      out_port_from_the_pio_led => out_port_from_the_pio_led,
+      phasedone_from_the_altpll_sdram => phasedone_from_the_altpll_sdram,
+      scl_pad_io_to_and_from_the_I2C_Master => scl_pad_io_to_and_from_the_I2C_Master,
+      sda_pad_io_to_and_from_the_I2C_Master => sda_pad_io_to_and_from_the_I2C_Master,
+      txd_from_the_uart => txd_from_the_uart,
+      zs_addr_from_the_sdram => zs_addr_from_the_sdram,
+      zs_ba_from_the_sdram => zs_ba_from_the_sdram,
+      zs_cas_n_from_the_sdram => zs_cas_n_from_the_sdram,
+      zs_cke_from_the_sdram => zs_cke_from_the_sdram,
+      zs_cs_n_from_the_sdram => zs_cs_n_from_the_sdram,
+      zs_dq_to_and_from_the_sdram => zs_dq_to_and_from_the_sdram,
+      zs_dqm_from_the_sdram => zs_dqm_from_the_sdram,
+      zs_ras_n_from_the_sdram => zs_ras_n_from_the_sdram,
+      zs_we_n_from_the_sdram => zs_we_n_from_the_sdram,
+      MISO_to_the_spi => MISO_to_the_spi,
+      areset_to_the_altpll_sdram => areset_to_the_altpll_sdram,
+      clk_100 => clk_100,
+      in_port_to_the_pio_bot_endcalc => in_port_to_the_pio_bot_endcalc,
+      reset_n => reset_n,
+      rxd_to_the_uart => rxd_to_the_uart
+    );
+
+

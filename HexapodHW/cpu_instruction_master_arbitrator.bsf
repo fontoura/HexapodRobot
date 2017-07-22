@@ -1,0 +1,176 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 832 336)
+	(text "cpu_instruction_master_arbitrator" (rect 5 0 238 12)(font "Arial" ))
+	(text "inst" (rect 8 304 36 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 21 12)(font "Arial" ))
+		(text "clk" (rect 21 27 42 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "cpu_instruction_master_address[17..0]" (rect 0 0 261 12)(font "Arial" ))
+		(text "cpu_instruction_master_address[17..0]" (rect 21 43 282 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "cpu_instruction_master_granted_cpu_jtag_debug_module" (rect 0 0 368 12)(font "Arial" ))
+		(text "cpu_instruction_master_granted_cpu_jtag_debug_module" (rect 21 59 389 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "cpu_instruction_master_granted_onchip_memory2_s1" (rect 0 0 339 12)(font "Arial" ))
+		(text "cpu_instruction_master_granted_onchip_memory2_s1" (rect 21 75 360 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "cpu_instruction_master_qualified_request_cpu_jtag_debug_module" (rect 0 0 438 12)(font "Arial" ))
+		(text "cpu_instruction_master_qualified_request_cpu_jtag_debug_module" (rect 21 91 459 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "cpu_instruction_master_qualified_request_onchip_memory2_s1" (rect 0 0 410 12)(font "Arial" ))
+		(text "cpu_instruction_master_qualified_request_onchip_memory2_s1" (rect 21 107 431 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "cpu_instruction_master_read" (rect 0 0 191 12)(font "Arial" ))
+		(text "cpu_instruction_master_read" (rect 21 123 212 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "cpu_instruction_master_read_data_valid_cpu_jtag_debug_module" (rect 0 0 424 12)(font "Arial" ))
+		(text "cpu_instruction_master_read_data_valid_cpu_jtag_debug_module" (rect 21 139 445 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "cpu_instruction_master_read_data_valid_onchip_memory2_s1" (rect 0 0 396 12)(font "Arial" ))
+		(text "cpu_instruction_master_read_data_valid_onchip_memory2_s1" (rect 21 155 417 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "cpu_instruction_master_requests_cpu_jtag_debug_module" (rect 0 0 375 12)(font "Arial" ))
+		(text "cpu_instruction_master_requests_cpu_jtag_debug_module" (rect 21 171 396 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "cpu_instruction_master_requests_onchip_memory2_s1" (rect 0 0 346 12)(font "Arial" ))
+		(text "cpu_instruction_master_requests_onchip_memory2_s1" (rect 21 187 367 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "cpu_jtag_debug_module_readdata_from_sa[31..0]" (rect 0 0 318 12)(font "Arial" ))
+		(text "cpu_jtag_debug_module_readdata_from_sa[31..0]" (rect 21 203 339 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "d1_cpu_jtag_debug_module_end_xfer" (rect 0 0 233 12)(font "Arial" ))
+		(text "d1_cpu_jtag_debug_module_end_xfer" (rect 21 219 254 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "d1_onchip_memory2_s1_end_xfer" (rect 0 0 205 12)(font "Arial" ))
+		(text "d1_onchip_memory2_s1_end_xfer" (rect 21 235 226 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "onchip_memory2_s1_readdata_from_sa[31..0]" (rect 0 0 290 12)(font "Arial" ))
+		(text "onchip_memory2_s1_readdata_from_sa[31..0]" (rect 21 251 311 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "reset_n" (rect 0 0 49 12)(font "Arial" ))
+		(text "reset_n" (rect 21 267 70 279)(font "Arial" ))
+		(line (pt 0 272)(pt 16 272)(line_width 1))
+	)
+	(port
+		(pt 816 32)
+		(output)
+		(text "cpu_instruction_master_address_to_slave[17..0]" (rect 0 0 325 12)(font "Arial" ))
+		(text "cpu_instruction_master_address_to_slave[17..0]" (rect 470 27 795 39)(font "Arial" ))
+		(line (pt 816 32)(pt 800 32)(line_width 3))
+	)
+	(port
+		(pt 816 48)
+		(output)
+		(text "cpu_instruction_master_latency_counter" (rect 0 0 269 12)(font "Arial" ))
+		(text "cpu_instruction_master_latency_counter" (rect 526 43 795 55)(font "Arial" ))
+		(line (pt 816 48)(pt 800 48)(line_width 1))
+	)
+	(port
+		(pt 816 64)
+		(output)
+		(text "cpu_instruction_master_readdata[31..0]" (rect 0 0 269 12)(font "Arial" ))
+		(text "cpu_instruction_master_readdata[31..0]" (rect 526 59 795 71)(font "Arial" ))
+		(line (pt 816 64)(pt 800 64)(line_width 3))
+	)
+	(port
+		(pt 816 80)
+		(output)
+		(text "cpu_instruction_master_readdatavalid" (rect 0 0 254 12)(font "Arial" ))
+		(text "cpu_instruction_master_readdatavalid" (rect 541 75 795 87)(font "Arial" ))
+		(line (pt 816 80)(pt 800 80)(line_width 1))
+	)
+	(port
+		(pt 816 96)
+		(output)
+		(text "cpu_instruction_master_waitrequest" (rect 0 0 240 12)(font "Arial" ))
+		(text "cpu_instruction_master_waitrequest" (rect 555 91 795 103)(font "Arial" ))
+		(line (pt 816 96)(pt 800 96)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 800 304)(line_width 1))
+	)
+)

@@ -1,0 +1,44 @@
+# clk_100
+# cpu
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu.ocp]
+# jtag_uart
+# pio_led
+# spi
+# TERASIC_SPI_3WIRE_0
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) ip/TARASIC_SPI_3WIRE/TERASIC_SPI_3WIRE_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/TARASIC_SPI_3WIRE/TERASIC_SPI_3WIRE.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/TARASIC_SPI_3WIRE/SPI_3WIRE.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/TARASIC_SPI_3WIRE/gsensor_fifo.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) TERASIC_SPI_3WIRE_0.v]
+# altpll_sdram
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_altpll/altera_avalon_altpll_hw.tcl]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) altpll_sdram.vhd]
+# sdram
+# timer_sys
+# pio_bot_x
+# pio_bot_y
+# pio_bot_z
+# pio_bot_endcalc
+# pio_bot_reset
+# pio_bot_legselect
+# pio_bot_updateflag
+# pio_bot_wrcoord
+# I2C_Master
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) ip/i2c_opencores/i2c_opencores_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/i2c_opencores/i2c_opencores.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/i2c_opencores/i2c_master_bit_ctrl.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/i2c_opencores/i2c_master_byte_ctrl.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/i2c_opencores/i2c_master_defines.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/i2c_opencores/i2c_master_top.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/i2c_opencores/timescale.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) I2C_Master.v]
+# uart
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) ip/fifoed_avalon_uart/fifoed_avalon_uart_hw.tcl]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) uart.vhd]
+# null
+set_global_assignment -name SDC_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_clock_adapter/altera_avalon_clock_adapter.sdc]
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID "001D6043C6ED0000013E9600EB24"
+set_global_assignment -entity "Teste_SOPC" -name IP_TOOL_NAME "sopc"
+set_global_assignment -entity "Teste_SOPC" -name IP_TOOL_VERSION "12.0sp2"
+set_global_assignment -entity "Teste_SOPC" -name IP_TOOL_ENV "sopc"

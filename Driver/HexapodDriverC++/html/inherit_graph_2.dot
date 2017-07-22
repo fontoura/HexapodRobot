@@ -1,0 +1,39 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="base::Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbase_1_1_object.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="concurrent::jobs::JobQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1jobs_1_1_job_queue.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="concurrent::jobs::JobQueueImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1jobs_1_1_job_queue_impl.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="concurrent::managed\l::UnsafeArray\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1managed_1_1_unsafe_array.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="concurrent::semaphore\l::Semaphore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1semaphore_1_1_semaphore.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="concurrent::semaphore\l::SemaphoreImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1semaphore_1_1_semaphore_impl.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="concurrent::thread\l::Thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1thread_1_1_thread.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="concurrent::thread\l::ThreadImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1thread_1_1_thread_impl.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="concurrent::thread\l::ThreadBody",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1thread_1_1_thread_body.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="concurrent::time::Stoptimer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1time_1_1_stoptimer.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="stream::socket::TCPServer\lSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classstream_1_1socket_1_1_t_c_p_server_socket.html"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="stream::Stream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classstream_1_1_stream.html"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="stream::socket::TCPSocket\lStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classstream_1_1socket_1_1_t_c_p_socket_stream.html"];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="stream::uart::SerialPort\lStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classstream_1_1uart_1_1_serial_port_stream.html"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="stream::uart::SerialPortInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classstream_1_1uart_1_1_serial_port_info.html"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="concurrent::managed\l::UnsafeArray\< StrongReference\l\< T \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1managed_1_1_unsafe_array.html"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="concurrent::managed\l::SafeArray\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconcurrent_1_1managed_1_1_safe_array.html"];
+}

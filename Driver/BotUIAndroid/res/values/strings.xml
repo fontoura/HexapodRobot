@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BotUIAndroid</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="text_generic_error_unexpectedResponse">Foi recebida uma resposta inválida do driver!</string>
+    <string name="text_generic_error_timedOut">O driver demorou muito para responder!</string>
+    <string name="text_generic_error_robotUnexpectedResponse">Foi recebida uma resposta inválida do robô!</string>
+    <string name="text_generic_error_robotTimedOut">O robô demorou muito para responder!</string>
+    
+    <string name="text_connect">Conectar-se a um driver</string>
+    <string name="text_connect_host">Host:</string>
+    <string name="text_connect_host_default">localhost</string>
+    <string name="text_connect_port">Porta:</string>
+    <string name="text_connect_port_default">60890</string>
+    <string name="text_connect_connect">Conectar!</string>
+    <string name="text_connect_error_alreadyConnected">A conexão já está aberta!</string>
+    <string name="text_connect_error_notAccepted">Não houve resposta!</string>
+
+    <string name="text_connecting">Tentando conectar ao driver&#8230;</string>
+
+    <string name="text_open">Abrir conexão com robô</string>
+    <string name="text_open_port">Porta:</string>
+    <string name="text_open_refresh">Atualizar</string>
+    <string name="text_open_open">Conectar!</string>
+	<string name="text_open_error_invalidPort">A porta é inválida!</string>
+
+    <string name="text_opening">Tentando conectar ao robô&#8230;</string>
+
+    <string name="text_connected">Mover o robô</string>
+
+    <string name="text_move_error">Não foi possível iniciar o movimento!</string>
+
+    <string name="text_walk_steps">Escolha o número de passos.</string>
+    <string name="text_walk_start">Iniciar</string>
+    <string name="text_walk_error_noSteps">Informe o número de passos!</string>
+    <string name="text_walk_error_invalidSteps">O número fornecido é inválido!</string>
+
+    <string name="text_startingMovement">Tentando iniciar movimento&#8230;</string>
+
+    <string name="text_moving">O movimento está em andamento.</string>
+    <string name="text_moving_stop">Interromper</string>
+</resources>

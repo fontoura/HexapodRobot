@@ -1,0 +1,337 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    android:id="@+id/my_layout" 
+    android:focusable="true" 
+    android:focusableInTouchMode="true"
+        android:padding="5dp" >
+
+	    <LinearLayout
+	        android:id="@+id/connectCard"
+	        style="@style/PopUpStyle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:orientation="vertical"
+	        android:padding="@dimen/RegularMargin"
+	        android:visibility="visible" >
+	
+	        <TextView
+	            style="@style/PopUpTitleStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/text_connect" />
+	
+	        <TableLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:stretchColumns="1" >
+	
+	            <TableRow
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	
+	                <TextView
+	                    style="@style/PopUpTextStyle"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="right"
+	                    android:paddingRight="@dimen/RegularMargin"
+	                    android:text="@string/text_connect_host" />
+	
+	                <EditText
+	                    android:id="@+id/hostText"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:inputType="textUri"
+	                    android:text="@string/text_connect_host_default" >
+	
+	                    <requestFocus />
+	                </EditText>
+	
+	            </TableRow>
+	
+	            <TableRow
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	
+	                <TextView
+	                    style="@style/PopUpTextStyle"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="right"
+	                    android:paddingRight="@dimen/RegularMargin"
+	                    android:text="@string/text_connect_port" />
+	
+	                <EditText
+	                    android:id="@+id/portText"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:inputType="number"
+	                    android:text="@string/text_connect_port_default" />
+	
+	            </TableRow>
+	
+	        </TableLayout>
+	
+	        <Button
+	            android:id="@+id/connectButton"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/text_connect_connect" />
+	       	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:id="@+id/openCard"
+	        style="@style/PopUpStyle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:orientation="vertical"
+	        android:padding="@dimen/RegularMargin"
+	        android:visibility="gone" >
+	
+	        <TextView
+	            style="@style/PopUpTitleStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/text_open" />
+	
+	        <TableLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:stretchColumns="1" >
+	
+	            <TableRow
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	
+	                <TextView
+	                    style="@style/PopUpTextStyle"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="left|center_vertical"
+	                    android:gravity="right"
+	                    android:paddingRight="@dimen/RegularMargin"
+	                    android:text="@string/text_open_port" />
+	
+	        <Spinner
+	            android:id="@+id/openSpinner"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" />
+	
+	            </TableRow>
+
+	            <LinearLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="fill" >
+
+	                <Button
+	                    android:id="@+id/refreshPortsButton"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="1"
+	                    android:text="@string/text_open_refresh" />
+
+	                <Button
+	                    android:id="@+id/openButton"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="1"
+	                    android:text="@string/text_open_open" />
+
+	            </LinearLayout>
+	
+	        </TableLayout>
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:id="@+id/onlineCard"
+	        style="@style/PopUpStyle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_centerVertical="true"
+	        android:orientation="vertical"
+	        android:padding="@dimen/RegularMargin"
+	        android:visibility="gone" >
+
+	        <TextView
+	            style="@style/PopUpTitleStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/text_connected" />
+
+	        <Spinner
+	            android:id="@+id/actionSpinner"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" />
+
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" >
+
+	            <RelativeLayout
+	                android:id="@+id/arrowsView"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:visibility="gone" >
+
+	                <ImageButton
+	                    android:id="@+id/buttonUp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentTop="true"
+	                    android:layout_alignWithParentIfMissing="false"
+	                    android:layout_centerHorizontal="true"
+	                    android:adjustViewBounds="true"
+	                    android:maxHeight="60dp"
+	                    android:maxWidth="60dp"
+	                    android:scaleType="fitCenter"
+	                    android:src="@drawable/arrow_up" />
+
+	                <ImageButton
+	                    android:id="@+id/buttonDown"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentBottom="true"
+	                    android:layout_centerHorizontal="true"
+	                    android:adjustViewBounds="true"
+	                    android:maxHeight="60dp"
+	                    android:maxWidth="60dp"
+	                    android:scaleType="fitCenter"
+	                    android:src="@drawable/arrow_down" />
+
+	                <ImageButton
+	                    android:id="@+id/buttonLeft"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_alignWithParentIfMissing="false"
+	                    android:layout_centerVertical="true"
+	                    android:adjustViewBounds="true"
+	                    android:maxHeight="60dp"
+	                    android:maxWidth="60dp"
+	                    android:scaleType="fitCenter"
+	                    android:src="@drawable/arrow_left" />
+
+	                <ImageButton
+	                    android:id="@+id/buttonRight"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentRight="true"
+	                    android:layout_centerVertical="true"
+	                    android:adjustViewBounds="true"
+	                    android:maxHeight="60dp"
+	                    android:maxWidth="60dp"
+	                    android:scaleType="fitCenter"
+	                    android:src="@drawable/arrow_right" />
+	            </RelativeLayout>
+
+	        </RelativeLayout>
+
+	    </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/overArea"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#80808080"
+        android:padding="15dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/loadingOverCard"
+            style="@style/PopUpStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:padding="@dimen/RegularMargin"
+            android:visibility="gone" >
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:paddingRight="@dimen/RegularMargin" />
+
+            <TextView
+                android:id="@+id/loadingText"
+                style="@style/PopUpTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|fill_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stopOverCard"
+            style="@style/PopUpStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="@dimen/RegularMargin"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/stopText"
+                style="@style/PopUpTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|fill_horizontal" />
+            
+	        <Button
+	            android:id="@+id/stopButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/text_connect_connect" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/spinnerOverCard"
+            style="@style/PopUpStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="@dimen/RegularMargin"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/spinnerText"
+                style="@style/PopUpTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|fill_horizontal" />
+
+            <EditText
+                android:id="@+id/spinnerData"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+            
+	        <Button
+	            android:id="@+id/spinnerButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/text_connect_connect" />
+
+        </LinearLayout>
+        
+
+    </RelativeLayout>
+    
+</RelativeLayout>

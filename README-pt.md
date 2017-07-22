@@ -9,7 +9,9 @@ Há pequenas diferenças entre o firmware que colocamos neste repositório e o a
 Os arquivos estão organizados da seguinte forma:
 
 ./Driver - Projetos do Eclipse com o driver e interfaces gráficas para PC e Android.
+
 ./HexapodHW - Projeto Quartus com o hardware reconfigurável e com o firmware.
+
 ./PCI - Arquivos da placa de circuito impresso (PCI) em formato Eagle.
 
 Att.

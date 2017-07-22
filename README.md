@@ -9,7 +9,9 @@ There is a small difference between the firmware version in this repo and the on
 The files are organized as follows:
 
 ./Driver - Eclipse projects with the driger and the UI's for PC and Android.
+
 ./HexapodHW - Quartus project with the reconfigurable hardware and firmware.
+
 ./PCI - Printed circuit board (in Portuguese: 'placa de circuito impresso'/'PCI') for Eagle.
 
 Best regards.

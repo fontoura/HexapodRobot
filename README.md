@@ -1,10 +1,10 @@
 Greetings!
 
-This repo contains files of the Capstone Project we presented in order to get our Computer Engineering degrees, back in 2013. The project was published in Portuguese language only, but the university demandes we include an 'abstract' section written in Engish. The abstract section as published is at the end of this file. If you are an English speaker and gets interested in this project, feel free to contact us!
+This repo contains files of the Capstone Project we presented in order to get our Computer Engineering degrees, back in 2013. The project was published in Portuguese language only, but the university demanded we include an 'abstract' section written in Engish. The abstract section as published is at the end of this file. If you are an English speaker and gets interested in this project, feel free to contact us!
 
 Our monograph (in Portuguese) can be found at: <http://repositorio.roca.utfpr.edu.br/jspui/handle/1/954>.
 
-There is a small difference between the firmware version in this repo and the one we presented at the time: the version in this repo uses FreeRTOS instead of µC/OS-II for RTOS. We changed the operating system in order to avoid licensing problems.
+There is a small difference between the firmware version in this repo and the one we presented back in 2013: the version in this repo uses FreeRTOS instead of µC/OS-II for RTOS. We changed the operating system in order to avoid licensing problems.
 
 The files are organized as follows:
 
